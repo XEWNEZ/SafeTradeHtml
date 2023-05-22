@@ -1,0 +1,52 @@
+﻿#logo-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+.color-blur {
+    background-size:contain;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(34,41,49,0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 0 !important;
+}
+.text-center{
+    text-align:center !important;
+}
+.text-white{
+    color:white !important;
+}
+.justify-content-center {
+    display: flex !important;
+    justify-content: center !important;
+}
+.w-25 {
+    width: 25% !important;
+}
+.w-50 {
+    width: 50% !important;
+}
+.w-75 {
+    width: 75% !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.p-0 {
+    padding: 0px !important;
+}
+.p-105-60{
+    padding: 105px 60px !important;
+}
+.z-index-1000{
+    position:relative;
+    z-index: 1000 !important;
+}
+.bg-color-white{
+    background-color: white;
+}

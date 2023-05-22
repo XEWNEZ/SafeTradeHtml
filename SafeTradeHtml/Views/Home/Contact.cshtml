@@ -1,0 +1,105 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<div class="section-title-page parallax-bg parallax-light">
+    <ul class="bg-slideshow">
+        <li>
+            <div style="background-image:url(/website/media/content/title-page/1.jpg)" class="bg-slide"></div>
+        </li>
+    </ul>
+    <div class="parallax__inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <h1 class="b-title-page">KONTAKTIEREN SIE UNS</h1>
+                    <div class="b-title-page__info">Private Unternehmen, die vielen Organisationen hochwertige Sicherheitsdienste anbieten, zertifizierte Auftragnehmer von Sicherheitsdiensten</div>
+                    <!-- end b-title-page-->
+                </div>
+                <div class="col-sm-5">
+                    <ol class="breadcrumb">
+                        <li><a href="index">STARTSEITE </a></li>
+                        <li class="active"> KONTAKTIEREN SIE UNS</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="text-center">
+                    <h2 class="ui-title-block ui-title-block_mod-a">Egal, was Ihre Sicherheitsbedürfnisse sind, <br>- Gewerbe oder Wohnen - Groß oder klein - <br>Kontaktieren Sie uns und wir entwickeln eine Lösung für Sie!</h2>
+                    <div class="ui-decor-type-1 center-block"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="b-contacts">
+                    <i class="b-contacts__icon pe-7s-flag"></i>
+                    <div class="b-contacts__name color-primary">Lage</div>
+                    <a class="b-contacts__contacts">Address</a>
+                </div>
+                <!-- end b-contacts-->
+            </div>
+            <div class="col-sm-3">
+                <div class="b-contacts">
+                    <i class="b-contacts__icon pe-7s-call"></i>
+                    <div class="b-contacts__name color-primary">Telefon</div>
+                    <a href="tel:02125465454" class="b-contacts__contacts">02125465454</a>
+                    <a href="tel:02125465454" class="b-contacts__contacts">02125465454</a>
+                </div>
+                <!-- end b-contacts-->
+            </div>
+            <div class="col-sm-3">
+                <div class="b-contacts">
+                    <i class="b-contacts__icon pe-7s-mail-open"></i>
+                    <div class="b-contacts__name color-primary">Email</div>
+                    <a href="mailTo:ridvanakyil16@gmail.com" class="b-contacts__contacts">ridvanakyil16@gmail.com</a>
+                </div>
+                <!-- end b-contacts-->
+            </div>
+            <div class="col-sm-3">
+                <div class="b-contacts">
+                    <i class="b-contacts__icon pe-7s-headphones"></i>
+                    <div class="b-contacts__name color-primary">Livechat</div>
+                    <a href="mailTo:ridvanakyil16@gmail.com" class="b-contacts__contacts">ridvanakyil16@gmail.com</a>
+                </div>
+                <!-- end b-contacts-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="map" class="map"></div>
+
+<div class="section-default">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="Name" placeholder="Name" class="form-control">
+                                <input type="email" name="Email" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="Surname" placeholder="Familienname" class="form-control">
+                                <input type="text" name="Title" placeholder="Inhalt" class="form-control">
+                            </div>
+                        </div>
+                        <button onclick="addContact()" class="ui-form__btn btn btn-primary btn-sm btn-effect btn-block">Senden Sie die Nachricht</button>
+                    </div>
+                    <div class="col-md-6">
+                        <textarea rows="7" name="Context" placeholder="Beschreibung" class="form-control"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
