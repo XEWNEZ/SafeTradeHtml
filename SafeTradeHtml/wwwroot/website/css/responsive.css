@@ -168,9 +168,9 @@
 @media (max-width:767px) {
     
     html .main-slider__title {
-    padding-top: 239px;
-    font-size: 27px;
-}
+    font-size: 20px;
+    margin-bottom: 98px;
+    }
     
     html .sp-fade-arrows{
         display: none;

@@ -32,7 +32,13 @@ namespace SafeTradeHtml.Controllers
         {
             return View();
         }
+        [Route("privacy")]
         public IActionResult Privacy()
+        {
+            return View();
+        }
+        [Route("masthead")]
+        public IActionResult Masthead()
         {
             return View();
         }

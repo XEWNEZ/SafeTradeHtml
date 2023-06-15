@@ -2,20 +2,30 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="main-slider" data-slider-width="100%" data-slider-height="800px" data-slider-arrows="true" data-slider-buttons="false" class="main-slider slider-pro">
+<div id="main-slider" data-slider-width="100%" data-slider-height="800px">
     <div class="sp-slides">
         <!-- Slide -->
         <div class="sp-slide">
-            <div class="sp-image-container w-100 color-blur">
-                <video autoplay muted loop id="logo-bg" class="w-100">
+            <div class="sp-image-container w-100">
+                <video autoplay muted loop id="logo-bg"
+                >
                     <source src="~/website/media/content/video/HomeGif.mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 col-sm-10 col-sm-offset-1">
-                        <h2 data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="main-slider__title sp-layer">WE. SECURE. BERLIN.</h2>
-                    </div>
+            <div class="row" style="display:flex; justify-content:space-between;">
+                <div class="col-md-4 col-sm-4">
+                    <h4 data-width="100%" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="main-slider__title pl text-left sp-layer">WE.</h4>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h4 data-width="100%" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="main-slider__title text-center sp-layer">SECURE.</h4>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h4 data-width="100%" data-show-duration="800" data-show-delay="400" data-hide-delay="400" class="main-slider__title pr text-right sp-layer"> BERLIN.</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12" style="display:flex; justify-content:center; align-items:center;">
+                    <div data-width="100%" class="main-slider__title text-center sp-layer"><img src="~/website/media/general/wesecure.png" style="height:40vh" /></div>
                 </div>
             </div>
         </div>

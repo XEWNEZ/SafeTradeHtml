@@ -18,6 +18,12 @@
 .text-center{
     text-align:center !important;
 }
+.text-start {
+    text-align: left !important;
+}
+.text-end {
+    text-align: right !important;
+}
 .text-white{
     color:white !important;
 }
@@ -49,4 +55,13 @@
 }
 .bg-color-white{
     background-color: white;
+}
+list-hover:hover{
+    color : white;
+}
+.pl{
+    padding-left:15px;
+}
+.pr {
+    padding-right: 15px;
 }

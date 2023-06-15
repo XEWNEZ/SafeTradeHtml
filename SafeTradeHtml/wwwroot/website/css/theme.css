@@ -2007,14 +2007,14 @@ body {
 }
 
 .main-slider__title {
-  margin-bottom: 16px;
-  padding-top: 308px;
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 1;
-  color: #fff;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
+    margin-top: 18px;
+    margin-bottom: 188px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
 }
 
 .main-slider__info {
@@ -3430,8 +3430,6 @@ body {
 .footer .footer-section__list li {
   float: left;
   width: 10%;
-  margin-bottom: 10px;
-  padding-left: 0px;
 }
 
 .footer .footer-section__list li:before {
@@ -3614,13 +3612,12 @@ body {
 
 /* ======= HEADER ======= */
 .header {
-  padding-bottom: 40px;
+  padding-bottom: 15px;
   z-index: 1000;
 }
 
 .header .logo {
   float: left;
-  padding-top: 40px;
 }
 
 .header .header-top {
@@ -3679,7 +3676,6 @@ body {
 }
 
 .header-nav {
-  padding-top: 35px;
   text-align: right;
 }
 
