@@ -168,8 +168,8 @@
 @media (max-width:767px) {
     
     html .main-slider__title {
-    font-size: 20px;
-    margin-bottom: 98px;
+    font-size: 15px;
+    margin-bottom: 0px;
     }
     
     html .sp-fade-arrows{
@@ -186,9 +186,7 @@
     display: none;
   }
   .header .header-top {
-    height: auto;
-    text-align: center;
-    padding-bottom: 10px;
+    display:none;
   }
   .header .header-top .social-net {
     float: none;

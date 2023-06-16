@@ -1,5 +1,5 @@
 ﻿#logo-bg {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
@@ -64,4 +64,16 @@ list-hover:hover{
 }
 .pr {
     padding-right: 15px;
+}
+.mask-video {
+    position:relative !important;
+    overflow: hidden !important;
+}
+.m-video-text{
+    margin:70px;
+}
+@media (max-width:767px) {
+    .m-video-text {
+        margin: 0px;
+    }
 }
